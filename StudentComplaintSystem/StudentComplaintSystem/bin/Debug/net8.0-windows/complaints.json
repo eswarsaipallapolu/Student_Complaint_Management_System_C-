@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "Category": "Academic",
+    "Description": "The subjects are too difficult",
+    "Status": "Submitted",
+    "SubmissionDate": "2025-04-29T01:20:40.3660232-05:00",
+    "AdminComment": "",
+    "StudentId": "student1"
+  },
+  {
+    "Id": 2,
+    "Category": "Facilities",
+    "Description": "What happened with the water",
+    "Status": "Resolved",
+    "SubmissionDate": "2025-04-29T01:21:06.6589193-05:00",
+    "AdminComment": "",
+    "StudentId": "student1"
+  },
+  {
+    "Id": 3,
+    "Category": "Other",
+    "Description": "This is might be a best decision",
+    "Status": "Submitted",
+    "SubmissionDate": "2025-04-29T04:08:38.0422352-05:00",
+    "AdminComment": "",
+    "StudentId": "student1"
+  },
+  {
+    "Id": 4,
+    "Category": "Academic",
+    "Description": "What a Wow, WOW means WOW....",
+    "Status": "Submitted",
+    "SubmissionDate": "2025-04-29T04:09:00.0705517-05:00",
+    "AdminComment": "Nice Review",
+    "StudentId": "student1"
+  }
+]

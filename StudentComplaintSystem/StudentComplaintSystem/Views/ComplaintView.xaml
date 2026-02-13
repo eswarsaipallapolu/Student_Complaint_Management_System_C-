@@ -1,0 +1,295 @@
+﻿<UserControl x:Class="StudentComplaintSystem.Views.ComplaintView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:StudentComplaintSystem.Views"
+             xmlns:vm="clr-namespace:StudentComplaintSystem.ViewModels"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="{DynamicResource BackgroundGradient}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Border Grid.Row="0" Background="{DynamicResource PrimaryColor}" Padding="15">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Logo and Project Name (Centered) -->
+                <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <!-- Logo -->
+                    <Canvas Width="50" Height="50" Margin="0,0,20,0">
+                        <!-- Speech Bubble -->
+                        <Path Fill="White" Data="M40,16 A24,24 0 1,1 0,16 L20,36 Z"/>
+                        <!-- Graduation Cap -->
+                        <Path Fill="White" Data="M8,4 H24 L20,8 H12 Z M16,4 V0"/>
+                        <!-- Checkmark -->
+                        <Path Fill="#3B82F6" Data="M12,16 L16,20 L24,12"/>
+                        <!-- Text: SCMS -->
+                        <TextBlock Text="SCMS" 
+                                   FontSize="10"
+                                   FontWeight="Bold" 
+                                   Foreground="White" 
+                                   FontFamily="Segoe UI" 
+                                   Canvas.Left="12" 
+                                   Canvas.Top="36"/>
+                    </Canvas>
+                    <TextBlock Text="Student Complaint System" 
+                               FontSize="26" 
+                               FontWeight="Bold" 
+                               Foreground="White"/>
+                </StackPanel>
+
+                <!-- Theme Toggle -->
+                <Button Grid.Column="1" 
+                        Content="{Binding ThemeButtonText}" 
+                        Command="{Binding ToggleThemeCommand}" 
+                        Style="{StaticResource ButtonStyle}" 
+                        Margin="0,0,10,0">
+                    <Button.RenderTransform>
+                        <TranslateTransform X="50"/>
+                    </Button.RenderTransform>
+                    <Button.Triggers>
+                        <EventTrigger RoutedEvent="Loaded">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(TranslateTransform.X)"
+                                                     From="50" To="0" Duration="0:0:0.3"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Button.Triggers>
+                </Button>
+
+                <!-- Logout Button (Right Edge) -->
+                <Button Grid.Column="2" 
+                        Content="Logout" 
+                        Command="{Binding LogoutCommand}" 
+                        Style="{StaticResource ButtonStyle}" 
+                        HorizontalAlignment="Right">
+                    <Button.RenderTransform>
+                        <TranslateTransform X="50"/>
+                    </Button.RenderTransform>
+                    <Button.Triggers>
+                        <EventTrigger RoutedEvent="Loaded">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetProperty="(RenderTransform).(TranslateTransform.X)"
+                                                     From="50" To="0" Duration="0:0:0.3"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </Button.Triggers>
+                </Button>
+            </Grid>
+        </Border>
+
+        <!-- Sorting controls -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="15,10">
+            <TextBlock Text="Sort By:" 
+                       FontSize="14" 
+                       Foreground="{DynamicResource TextColor}" 
+                       VerticalAlignment="Center" 
+                       Margin="0,0,5,0"/>
+            <ComboBox SelectedItem="{Binding SortCriteria}" 
+                      Width="120"
+                      FontSize="14" 
+                      Padding="5" 
+                      Margin="0,0,10,0"
+                      BorderBrush="{DynamicResource BorderColor}">
+                <ComboBoxItem Content="Id" Tag="{x:Static vm:SortCriteria.Id}"/>
+                <ComboBoxItem Content="Submission Date" Tag="{x:Static vm:SortCriteria.SubmissionDate}"/>
+                <ComboBoxItem Content="Category" Tag="{x:Static vm:SortCriteria.Category}"/>
+                <ComboBoxItem Content="Status" Tag="{x:Static vm:SortCriteria.Status}"/>
+            </ComboBox>
+            <Button Content="{Binding SortDirectionText}" 
+                    Command="{Binding SortComplaintsCommand}" 
+                    CommandParameter="ToggleDirection" 
+                    Style="{StaticResource ButtonStyle}"/>
+        </StackPanel>
+
+        <!-- Complaint list and details -->
+        <Grid Grid.Row="2" Margin="15,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Complaint list -->
+            <Border Grid.Column="0" Style="{StaticResource CardStyle}" Margin="0,0,5,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" 
+                               Text="Complaints" 
+                               FontSize="18" 
+                               FontWeight="Bold" 
+                               Foreground="{DynamicResource HeadingColor}" 
+                               Margin="0,0,0,10"/>
+                    <ListBox Grid.Row="1" 
+                             ItemsSource="{Binding Complaints}" 
+                             SelectedItem="{Binding SelectedComplaint}">
+                        <ListBox.ItemContainerStyle>
+                            <Style TargetType="ListBoxItem">
+                                <Setter Property="Padding" Value="10"/>
+                                <Setter Property="Margin" Value="2"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="ListBoxItem">
+                                            <Border Background="{TemplateBinding Background}" 
+                                                    BorderBrush="{DynamicResource BorderColor}" 
+                                                    BorderThickness="1" 
+                                                    CornerRadius="5">
+                                                <ContentPresenter Margin="10"/>
+                                            </Border>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsSelected" Value="True">
+                                                    <Setter Property="Background" Value="#E0F2FE"/>
+                                                </Trigger>
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter Property="Background" Value="#F1F5F9"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </ListBox.ItemContainerStyle>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontSize="13" 
+                                               Foreground="{DynamicResource TextColor}" 
+                                               Margin="0,0,5,0">
+                                        <TextBlock.Style>
+                                            <Style TargetType="TextBlock">
+                                                <Setter Property="Text" Value="⏳"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding Status, Converter={StaticResource ComboBoxItemConverter}}" Value="In Progress">
+                                                        <Setter Property="Text" Value="⚙️"/>
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding Status, Converter={StaticResource ComboBoxItemConverter}}" Value="Resolved">
+                                                        <Setter Property="Text" Value="✅"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TextBlock.Style>
+                                    </TextBlock>
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding Id, StringFormat='Complaint ID: {0}'}" 
+                                                   FontWeight="Bold" 
+                                                   FontSize="14" 
+                                                   Foreground="{DynamicResource HeadingColor}"/>
+                                        <TextBlock Text="{Binding Category, Converter={StaticResource ComboBoxItemConverter}}" 
+                                                   FontSize="13" 
+                                                   Foreground="{DynamicResource TextColor}"/>
+                                        <TextBlock Text="{Binding Status, Converter={StaticResource ComboBoxItemConverter}}" 
+                                                   FontSize="13" 
+                                                   Foreground="{DynamicResource TextColor}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </Border>
+
+            <!-- Complaint details and admin controls -->
+            <Border Grid.Column="1" Style="{StaticResource CardStyle}" Margin="5,0,0,0">
+                <StackPanel DataContext="{Binding SelectedComplaint}">
+                    <TextBlock Text="Complaint Details" 
+                               FontSize="18" 
+                               FontWeight="Bold" 
+                               Foreground="{DynamicResource HeadingColor}" 
+                               Margin="0,0,0,10"/>
+                    <TextBlock Text="{Binding Category, StringFormat='Category: {0}', Converter={StaticResource ComboBoxItemConverter}}" 
+                               FontSize="14" 
+                               Foreground="{DynamicResource TextColor}" 
+                               Margin="0,2,0,2"/>
+                    <TextBlock Text="{Binding Description, StringFormat='Description: {0}'}" 
+                               FontSize="14" 
+                               Foreground="{DynamicResource TextColor}" 
+                               Margin="0,2,0,2"/>
+                    <TextBlock Text="{Binding SubmissionDate, StringFormat='Submitted: {0:d}'}" 
+                               FontSize="14" 
+                               Foreground="{DynamicResource TextColor}" 
+                               Margin="0,2,0,2"/>
+                    <TextBlock Text="{Binding Status, StringFormat='Status: {0}', Converter={StaticResource ComboBoxItemConverter}}" 
+                               FontSize="14" 
+                               Foreground="{DynamicResource TextColor}" 
+                               Margin="0,2,0,2"/>
+                    <TextBlock Text="{Binding AdminComment, StringFormat='Admin Comment: {0}'}" 
+                               FontSize="14" 
+                               Foreground="{DynamicResource TextColor}" 
+                               Margin="0,2,0,2"/>
+                    <StackPanel Visibility="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource BooleanToVisibilityConverter}}">
+                        <ComboBox SelectedValue="{Binding Category}" 
+                                  SelectedValuePath="Content" 
+                                  FontSize="14" 
+                                  Padding="5" 
+                                  Margin="0,5" 
+                                  BorderBrush="{DynamicResource BorderColor}">
+                            <ComboBoxItem>Facilities</ComboBoxItem>
+                            <ComboBoxItem>Academic</ComboBoxItem>
+                            <ComboBoxItem>Other</ComboBoxItem>
+                        </ComboBox>
+                        <ComboBox SelectedValue="{Binding Status}" 
+                                  SelectedValuePath="Content" 
+                                  FontSize="14" 
+                                  Padding="5" 
+                                  Margin="0,5" 
+                                  BorderBrush="{DynamicResource BorderColor}">
+                            <ComboBoxItem>Submitted</ComboBoxItem>
+                            <ComboBoxItem>In Progress</ComboBoxItem>
+                            <ComboBoxItem>Resolved</ComboBoxItem>
+                        </ComboBox>
+                        <TextBox Text="{Binding AdminComment}" 
+                                 Style="{StaticResource TextBoxStyle}" 
+                                 Height="60"/>
+                        <Button Content="Update Complaint" 
+                                Command="{Binding DataContext.UpdateComplaintCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" 
+                                Style="{StaticResource ButtonStyle}"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Complaint submission form -->
+        <Border Grid.Row="3" Style="{StaticResource CardStyle}" Margin="15,10,15,15">
+            <StackPanel DataContext="{Binding NewComplaint}">
+                <TextBlock Text="Submit New Complaint" 
+                           FontSize="18" 
+                           FontWeight="Bold" 
+                           Foreground="{DynamicResource HeadingColor}" 
+                           Margin="0,0,0,10"/>
+                <ComboBox SelectedValue="{Binding Category}" 
+                          SelectedValuePath="Content" 
+                          FontSize="14" 
+                          Padding="5" 
+                          Margin="0,5" 
+                          BorderBrush="{DynamicResource BorderColor}">
+                    <ComboBoxItem>Facilities</ComboBoxItem>
+                    <ComboBoxItem>Academic</ComboBoxItem>
+                    <ComboBoxItem>Other</ComboBoxItem>
+                </ComboBox>
+                <TextBox Text="{Binding Description}" 
+                         Style="{StaticResource TextBoxStyle}" 
+                         Height="60"/>
+                <Button Content="Submit" 
+                        Command="{Binding DataContext.SubmitComplaintCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" 
+                        Style="{StaticResource ButtonStyle}"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

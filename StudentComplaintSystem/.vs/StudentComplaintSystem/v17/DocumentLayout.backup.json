@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|d:\\masters docs\\2-2\\c#\\project\\studentcomplaintsystem\\studentcomplaintsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|solutionrelative:studentcomplaintsystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|d:\\masters docs\\2-2\\c#\\project\\studentcomplaintsystem\\studentcomplaintsystem\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|solutionrelative:studentcomplaintsystem\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|d:\\masters docs\\2-2\\c#\\project\\studentcomplaintsystem\\studentcomplaintsystem\\viewmodels\\complaintviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|solutionrelative:studentcomplaintsystem\\viewmodels\\complaintviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|d:\\masters docs\\2-2\\c#\\project\\studentcomplaintsystem\\studentcomplaintsystem\\views\\complaintview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|solutionrelative:studentcomplaintsystem\\views\\complaintview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|d:\\masters docs\\2-2\\c#\\project\\studentcomplaintsystem\\studentcomplaintsystem\\views\\comboboxitemconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|solutionrelative:studentcomplaintsystem\\views\\comboboxitemconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|d:\\masters docs\\2-2\\c#\\project\\studentcomplaintsystem\\studentcomplaintsystem\\models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|solutionrelative:studentcomplaintsystem\\models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|d:\\masters docs\\2-2\\c#\\project\\studentcomplaintsystem\\studentcomplaintsystem\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|solutionrelative:studentcomplaintsystem\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|d:\\masters docs\\2-2\\c#\\project\\studentcomplaintsystem\\studentcomplaintsystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|solutionrelative:studentcomplaintsystem\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|d:\\masters docs\\2-2\\c#\\project\\studentcomplaintsystem\\studentcomplaintsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|solutionrelative:studentcomplaintsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|d:\\masters docs\\2-2\\c#\\project\\studentcomplaintsystem\\studentcomplaintsystem\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DBF0EF6A-DF3A-4293-A247-9B4F46A85724}|StudentComplaintSystem\\StudentComplaintSystem.csproj|solutionrelative:studentcomplaintsystem\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429182435_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentComplaintSystem\\Migrations\\20250429182435_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429181236_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentComplaintSystem\\Migrations\\20250429181236_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429180325_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentComplaintSystem\\Migrations\\20250429180325_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429175311_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentComplaintSystem\\Migrations\\20250429175311_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429172257_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentComplaintSystem\\Migrations\\20250429172257_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429154302_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudentComplaintSystem\\Migrations\\20250429154302_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComplaintView.xaml",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Views\\ComplaintView.xaml",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Views\\ComplaintView.xaml",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Views\\ComplaintView.xaml",
+              "RelativeToolTip": "StudentComplaintSystem\\Views\\ComplaintView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-29T19:12:47.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ComboBoxItemConverter.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Views\\ComboBoxItemConverter.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Views\\ComboBoxItemConverter.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Views\\ComboBoxItemConverter.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Views\\ComboBoxItemConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T19:12:46.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Complaint.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Models\\Complaint.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Models\\Complaint.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Models\\Complaint.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Models\\Complaint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T19:11:09.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAiwIUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:36:53.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\MainWindow.xaml.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwDYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:36:40.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComplaintViewModel.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\ViewModels\\ComplaintViewModel.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\ViewModels\\ComplaintViewModel.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\ViewModels\\ComplaintViewModel.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\ViewModels\\ComplaintViewModel.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAiwM8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T19:12:38.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Services\\DataService.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Services\\DataService.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Services\\DataService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAiwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T19:10:17.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Models\\User.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Models\\User.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:55:06.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Views\\HomeView.xaml",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Views\\HomeView.xaml",
+              "RelativeToolTip": "StudentComplaintSystem\\Views\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-29T18:42:48.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250429182435_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429182435_InitialCreate.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Migrations\\20250429182435_InitialCreate.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429182435_InitialCreate.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Migrations\\20250429182435_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:24:36.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Services\\AuthService.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:40:33.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250429181236_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429181236_InitialCreate.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Migrations\\20250429181236_InitialCreate.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429181236_InitialCreate.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Migrations\\20250429181236_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:12:36.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250429180325_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429180325_InitialCreate.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Migrations\\20250429180325_InitialCreate.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429180325_InitialCreate.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Migrations\\20250429180325_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T18:03:25.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250429175311_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429175311_InitialCreate.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Migrations\\20250429175311_InitialCreate.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429175311_InitialCreate.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Migrations\\20250429175311_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:53:14.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250429172257_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429172257_InitialCreate.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Migrations\\20250429172257_InitialCreate.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429172257_InitialCreate.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Migrations\\20250429172257_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T17:22:57.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250429154302_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429154302_InitialCreate.cs",
+              "RelativeDocumentMoniker": "StudentComplaintSystem\\Migrations\\20250429154302_InitialCreate.cs",
+              "ToolTip": "D:\\Masters Docs\\2-2\\C#\\Project\\StudentComplaintSystem\\StudentComplaintSystem\\Migrations\\20250429154302_InitialCreate.cs",
+              "RelativeToolTip": "StudentComplaintSystem\\Migrations\\20250429154302_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:43:03.291Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

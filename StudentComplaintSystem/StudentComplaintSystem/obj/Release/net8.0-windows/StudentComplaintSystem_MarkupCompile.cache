@@ -1,0 +1,20 @@
+﻿StudentComplaintSystem
+
+
+winexe
+C#
+.cs
+D:\Masters Docs\2-2\C#\Project\StudentComplaintSystem\StudentComplaintSystem\obj\Release\net8.0-windows\
+StudentComplaintSystem
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+D:\Masters Docs\2-2\C#\Project\StudentComplaintSystem\StudentComplaintSystem\App.xaml
+32095941174
+
+17873391491
+213792625779
+MainWindow.xaml;Views\ComplaintView.xaml;Views\HomeView.xaml;
+
+True
+
