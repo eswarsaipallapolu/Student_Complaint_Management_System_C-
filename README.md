@@ -5,19 +5,23 @@ STUDENT COMPLAINT MANAGEMENT SYSTEM
 
 Project Proposal :  
 Project Name : Student Complaint Management System (SCMS) 
+
 Programming Languages : C# , XAML, SQLite 
  
-1. Introduction 
+1. Introduction
+
 The Student Complaint Management System (SCMS) is a WPF-based application that allows 
 students to submit complaints and enables administrators to track and resolve them. The project 
 is built using the MVVM (Model-View-ViewModel) architecture to ensure modularity and 
 maintainability. 
  
 2. Target Users 
+
 • Students : Can submit complaints, track complaint statuses, and receive updates. 
 • Administrators : Can review, update, and resolve complaints efficiently. 
  
 3. Key Features 
+
 Student Features 
 Submit Complaints : Students can file complaints with details like category, 
 description, and priority. 
